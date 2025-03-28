@@ -1,4 +1,6 @@
-export default Header = (props) => {
+import './Header.css'
+
+export const Header = (props) => {
     return (
         <header className="header">
             <a className="logo">{props.name}</a>
