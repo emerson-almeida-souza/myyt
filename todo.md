@@ -1,6 +1,7 @@
 # Next Steps
 
 ## 📌 MYTY
+- [ ] Keep Styling
 - [ ] Creat card video
     * Title - H2
     * Description - P

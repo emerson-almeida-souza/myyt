@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primaria: #1a1b1c;
+    --secondaria: #a10e08;
+    --font: #F5F5F5;
+}
+
 .header {
-    border: 1px solid #ccc;
-    background-color: red;
     max-width: 100%;
+    background-color: var(--secondaria);
+    color: var(--font); 
+    font-family: 'Montserrat';
+
+    display: flex;
+    gap: 40px;
 }
