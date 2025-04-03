@@ -1,15 +1,21 @@
-import './Header.css'
+import './Header.css';
+import addIcon from '../../assets/add.png'
 
 export const Header = (props) => {
     return (
         <header className="header">
             <a className="logo">{props.name}</a>
-            <nav className="header-search">
-                <div>
-                    <input type="search" placeholder={props.placeholder} id="search" className="search-input">
-                    </input>
-                </div>
-            </nav>
+            <div className="search-container">
+                <input
+                    type="search"
+                    placeholder={props.placeholder}
+                    id="search"
+                    className="search-input"
+                />
+            </div>
+            <button className='add-new-video'>
+                <img src={addIcon} alt='Add Video' width="20" height="20"></img>
+            </button>
         </header>
-    )
-}
+    );
+};

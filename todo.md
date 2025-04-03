@@ -1,15 +1,16 @@
-# Next Steps
+## Em Andamento 🚧
+- [ ] ⚙️ **CRUD** _(doing)_
+  - [ ] **TELA DE CRIAÇÃO**
+  - [ ] **Colar evento de onclick para encaminhar ao formulário**
+    - [ ] Desenvolver formulário com validação
+  - [ ] **EDIÇÃO**
+    - [ ] Permitir atualização de todos os campos
+  - [ ] **EXCLUIR**
+    - [ ] Implementar confirmação de exclusão
 
-## 📌 MYTY
-- [ ] Keep Styling
-- [ ] Creat card video
-    * Title - H2
-    * Description - P
-    * Link - A
-    * Category - SELECT
+- [ ] 🔍 **EMBAIXO DO HEADER CRIAR UM FILTRO DE CATEGORIAS** 
+  - [ ] Definir categorias principais
+  - [ ] Estilizar componente de filtro
 
-## Steps
-- [ ] Restructure HTML adding category 
-- [ ] Add category to video 
-- [ ] Create a filter for the videos 
-- [ ] Extract video ID from link youtube 
+- [ ] 🔗 **Extract video ID from link youtube**
+  - [ ] Criar função de parser para URLs do YouTube
