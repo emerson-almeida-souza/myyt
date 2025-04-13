@@ -2,7 +2,7 @@
 - [ ] ⚙️ **CRUD** _(doing)_
   - [ ] **TELA DE CRIAÇÃO**
   - [ ] **Colar evento de onclick para encaminhar ao formulário**
-    - [ ] Desenvolver formulário com validação
+    - [ ] Desenvolver formulário com validação em formato de MODAL
   - [ ] **EDIÇÃO**
     - [ ] Permitir atualização de todos os campos
   - [ ] **EXCLUIR**
