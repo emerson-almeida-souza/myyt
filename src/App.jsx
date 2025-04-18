@@ -1,13 +1,15 @@
 import './App.css'
-import { CardVideo } from './components/CardVideo/CardVideo'
+import AddVideoModal from './components/AddVideoModal'
+import CardVideo from './components/CardVideo'
 import Header from './components/Header'
 
 function App() {
 
   return (
     <>
-        <Header name="MyyT" placeholder="Pesquisar"></Header>
-        <CardVideo></CardVideo>
+      <Header name="MyyT" placeholder="Pesquisar"></Header>
+      <CardVideo></CardVideo>
+      <AddVideoModal />
     </>
   )
 }
